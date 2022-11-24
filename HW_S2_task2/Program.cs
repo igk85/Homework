@@ -1,4 +1,5 @@
-﻿int N , M, S;
+﻿// Поскольку вопрос задачи найте третью цифру, не разряд - отчет в решении веду слева направо.
+int N , M, S;
 
 Console.Write("Введите любое число : ");
         N = Convert.ToInt32(Console.ReadLine());
@@ -11,5 +12,5 @@ Console.Write("Введите любое число : ");
         {
             S = (N / Convert.ToInt32(Math.Pow(10, M - 3)) % 10);
             Console.WriteLine("Всего цифр {0}", M);
-            Console.WriteLine("{0} третье число ", S);
+            Console.WriteLine("{0} третья цифра ", S);
         }
