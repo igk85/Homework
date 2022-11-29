@@ -16,7 +16,6 @@ void ToDegree(int a, int b)
     Console.WriteLine(result);
 }
 
-// Функция ввода
 int ReadInt(string message)
 {
     Console.WriteLine(message);
