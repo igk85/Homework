@@ -20,3 +20,9 @@ HW_S4 task1= Задача 25
 HW_S4 task2= Задача 27
 
 HW_S4 task3= Задача 29
+
+HW_S5 task1= Задача 34
+
+HW_S5 task1= Задача 36
+
+HW_S5 task1= Задача 38
