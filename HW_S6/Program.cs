@@ -98,14 +98,19 @@ int[] f = { 0, 1, -2, -5, 0, 0, 7, 3 };
 // 
 
 int[] g = { 1, 0, 0, 0, -9, -6 };
+
 Console.Write("Первый многочлен ");
 Console.WriteLine(Print(f));
+
 Console.Write("Второй многочлен ");
 Console.WriteLine(Print(g));
+
 int[] s = Sum(f, g);
 int[] d = Dif(f, g);
+
 Console.Write("Сумма многочленов равна ");
 Console.WriteLine(Print(s));
+
 Console.Write("Разность многочленов равна ");
 Console.WriteLine(Print(d));
 
